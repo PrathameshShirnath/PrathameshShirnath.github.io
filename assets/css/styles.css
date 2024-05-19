@@ -55,6 +55,13 @@
     --z-modal: 1000;
 }
 
+.carousel-container {
+    max-width: 700px; 
+    /* width: 900px; */
+    max-height: 700px; 
+    margin: auto; /* Center the carousel */
+    overflow: hidden; /* Hide overflow content */
+}
 /* Font size for large devices */
 @media screen and (min-width: 968px) {
     :root {
